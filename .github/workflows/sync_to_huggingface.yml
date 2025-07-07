@@ -16,5 +16,5 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://MarinaraSpaghetti:$HF_TOKEN@huggingface.co/spaces/MarinaraSpaghetti/SillyTavern-Settings main
+        run: git push https://MarinaraSpaghetti:$HF_TOKEN@huggingface.co/MarinaraSpaghetti/SillyTavern-Settings main
 
